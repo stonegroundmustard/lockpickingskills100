@@ -1,4 +1,3 @@
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 var passwordLength;
@@ -33,7 +32,7 @@ generateBtn.addEventListener("click", writePassword);
 
 // Start Function
 function generatePassword() {
-  // Ask four user Input
+  //user Input
   passwordLength = prompt("How many characters would you like your password? Choose between 8 and 128");
   console.log("Password length " + passwordLength);
   
@@ -59,12 +58,12 @@ function generatePassword() {
   // No answer then
   if (!confirmLower && !confirmUpper && !confirmNumber && !confirmSpecial) {
     userChoices = alert("Please choose a criteria.");
-  // 4 true options
+  // 4 options
   } else if (confirmLower && confirmUpper && confirmNumber && confirmSpecial) {
     userChoices = lowerCase.concat(upperCase, numbers, special);
     console.log(userChoices);
   }
-  // 3 true options
+  // 3 options
   else if (confirmLower && confirmUpper && confirmNumber) {
     userChoices = lowerCase.concat(upperCase, numbers);
     console.log(userChoices);
@@ -81,7 +80,7 @@ function generatePassword() {
     userChoices = upperCase.concat(numbers, special);
     console.log(userChoices);
   }
-  // 2 true options
+  // 2 options
   else if (confirmLower && confirmUpper) {
     userChoices = lowerCase.concat(upperCase);
     console.log(userChoices);
@@ -106,7 +105,7 @@ function generatePassword() {
     userChoices = numbers.concat(special);
     console.log(userChoices);
   }
-  // 1 true option
+  // 1 option
   else if (confirmLower) {
     userChoices = lowerCase;
     console.log(userChoices);
@@ -124,7 +123,7 @@ function generatePassword() {
     console.log(userChoices);
   };
 
-  // Empty variable for the password lenght
+  // Empty variable for the password length
   var passwordBlank = [];
   
   // Loop for random selection
@@ -134,7 +133,7 @@ function generatePassword() {
     console.log(allChoices);
   }
 
-  // Join and return the password 
+  // return the password 
   var password = passwordBlank.join("");
   console.log("Your Pasword is: " + password);
   return password;
