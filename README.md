@@ -18,7 +18,6 @@ Follow the action box prompts to set the criteria for you password, then copy it
 
 ![IMG_7259](https://user-images.githubusercontent.com/114121861/200992440-92453ab3-f383-4c49-a75a-5105a451f6b5.jpeg)
 ![IMG_7260](https://user-images.githubusercontent.com/114121861/200992447-f555b7f8-e0e4-45f0-b3e0-df5879ef8645.jpg)
-![IMG_7258](https://user-images.githubusercontent.com/114121861/200992451-cde4343d-e652-4399-9d8f-4c17ebd51a93.jpg)
 ![IMG_7262](https://user-images.githubusercontent.com/114121861/200992455-a4b5451a-8c4b-4d83-96cd-1ef74c14bd4f.jpg)
 
 
